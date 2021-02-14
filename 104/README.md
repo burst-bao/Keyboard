@@ -33,11 +33,11 @@ This project aims to design a high-performance, cool-appearance, and completely 
 
 - fully open-source: 
 
-  This repository stores the project for FPGA only. **PCB** and other resources are stored in Baidu Netdisk with different type of keyboard, see [home page](https://github.com/volatile-static/Keyboard) for details.
+  This repository stores the project for FPGA only. **PCBs** and other resources are stored in Baidu Netdisk with different type of keyboard, see [home page](https://github.com/volatile-static/Keyboard) for details.
 
 - full n-key rollover: 
 
-  Each switch in matrix connects to a Schottky diode in series, which will realize fundamental full n-key rollover taking advantage of PS/2 protocol.
+  Each switch in the matrix connects to a Schottky diode in series, which will realize truly full n-key rollover taking advantage of PS/2 protocol.
 
 - fully-parallel LED driver: 
 
@@ -71,7 +71,7 @@ Although cooperating with hardware and software, mastering every detail is not n
 - If you just want to practise soldering: Use PCB documents directly to order PCB prototype. Use BOM to order components. When you finish soldering, burn [firmware](https://gitee.com/const_volatile/programmable-keyboard/releases).
 - If you are skilled in mechanics: [Purchase an assembled pcba](https://market.m.taobao.com/app/idleFish-F2e/widle-taobao-rax/page-detail?wh_weex=true&wx_navbar_transparent=true&id=637588964083&ut_sk=1.X7R74tmmaOsDAD0RHKo4TqAp_21407387_1613018144287.Copy.detail.637588964083.2206517679956&forceFlush=1), design your favourite keycap and shell based on existing plate file.
 - If you want to use the PS/2 protocol in your own project: Just use these [code](VerilogHDL/ps2_bus.v), [documents](https://blog.csdn.net/weixin_44560710/article/details/112798557) available as well.
-- If you are learning SpinalHDL: Just have a look at [code](SpinalHDL/src/main/scala/keyboard)~
+- If you are learning SpinalHDL: Just have a look at the [code](SpinalHDL/src/main/scala/keyboard)~
 
 
 ## Repository structure
